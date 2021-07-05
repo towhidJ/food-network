@@ -1,0 +1,36 @@
+body{
+margin: 0;
+font-family: 'Poppins', sans-serif;
+
+}
+.top-text{
+    color:tomato;
+}
+.flexible-container{
+    display:flex;
+    margin-bottom: 150px;
+}
+h1{
+    
+    font-weight: 700;
+}
+
+.order-btn{
+    background-image:linear-gradient(orange,tomato);
+    text-decoration: none;
+    color:white;
+    padding: 8px 15px;
+    border-radius:20px;
+}
+
+.top-banner{
+    padding:20px;
+    background-color: aliceblue;
+}
+
+.half-width{
+    width:50%;
+}
+.half-width img{
+    width:80%;
+}
