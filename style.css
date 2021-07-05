@@ -8,7 +8,7 @@ font-family: 'Poppins', sans-serif;
 }
 .flexible-container{
     display:flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .top-banner h1{
     font-size:50px;
@@ -37,7 +37,7 @@ font-family: 'Poppins', sans-serif;
 
 .about-me{
     background-image:url("images/shapes/7.png");
-    background-repeat: no;
+    background-repeat: no-repeat;
     
 }
 .about-me h1{
@@ -54,4 +54,32 @@ font-family: 'Poppins', sans-serif;
     padding-left:10px;
     padding-right:25px;
     padding-bottom: 30px;
+}
+
+.my-recipi{
+    text-align: center;
+    padding:50px;
+}
+
+.recipi{
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+#recipi-box{
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.recipi-item{
+    width:40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding:10px;
+}
+
+.recipi-item img{
+    width:100%;
+    border-radius: 10px;
 }
