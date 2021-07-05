@@ -10,12 +10,12 @@ font-family: 'Poppins', sans-serif;
     display:flex;
     margin-bottom: 150px;
 }
-h1{
-    
+.top-banner h1{
+    font-size:50px;
     font-weight: 700;
 }
 
-.order-btn{
+.link-button{
     background-image:linear-gradient(orange,tomato);
     text-decoration: none;
     color:white;
@@ -33,4 +33,25 @@ h1{
 }
 .half-width img{
     width:80%;
+}
+
+.about-me{
+    background-image:url("images/shapes/7.png");
+    background-repeat: no;
+    
+}
+.about-me h1{
+    font-weight: 700;
+}
+.about-me img{
+    width:50%;
+    padding-top: 10px;
+    padding-left:80px;
+
+}
+.about-me-p{
+    align-content: center;
+    padding-left:10px;
+    padding-right:25px;
+    padding-bottom: 30px;
 }
