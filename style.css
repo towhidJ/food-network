@@ -8,7 +8,7 @@ font-family: 'Poppins', sans-serif;
 }
 .flexible-container{
     display:flex;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .top-banner h1{
     font-size:50px;
@@ -82,4 +82,20 @@ font-family: 'Poppins', sans-serif;
 .recipi-item img{
     width:100%;
     border-radius: 10px;
+}
+
+.subscriber{
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+    text-align: center;
+    margin-left:5%;
+    margin-right: 5%;
+}
+
+.subscriber-item{
+    width:50%;
+    padding:5px;
+    margin-left:5%;
+    margin-right: 5%;
 }
